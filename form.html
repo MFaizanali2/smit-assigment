@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+    </head>
+    <style>
+       h1{
+           text-align: center;
+           text-decoration: underline red;
+       }
+       label{
+           color: rgb(57, 66, 66);
+           font-size: 20px;
+       }
+    </style>
+
+    <body>
+        <h1>User Registration Form</h1>
+    <form>
+      <label> First Name: </label>
+      <input type="text" placeholder="  Enter Name" required="" maxlength=" 100" minlength="3">
+      <br>
+      <br>
+      <label>Last Name: </label>
+      <input type="text" placeholder="Enter Name" required="" name="name" maxlength="100" min="3">
+      <br>
+      <br>
+      <label>Password:</label>
+      <input type="password" placeholder=" Enter Password " maxlength="200" minlength="8" required="">
+      <br>
+      <br>
+      <label>Email:</label>
+      <input type="email" placeholder=" Enter your email " maxlength="100" minlength="" required="">
+
+      <br>
+      <br>
+      <label>Website:</label>
+      <input type="url" placeholder=" Enter URL " maxlength="200" required="">
+
+      <br>
+      <br>
+      <label>Search:</label>
+      <input type="search" placeholder="Search...  " maxlength="500">
+      <br><br>
+      <label>Bio:</label>
+      <textarea name="text" cols="30" rows="10" maxlength="500">describe extra information........ </textarea>
+      <br><br>
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="GENDER" value="MALE"> male
+        <br>
+        <input type="radio" name="GENDER" value="FEMALE"> female
+        <br>
+        <input type="radio" name="GENDER" value="OTHERS"> other
+      </fieldset>
+      <br><br>
+
+      <fieldset>
+        <legend>interests</legend>
+        <input type="checkbox" name="music" value="Gender"> music
+        <br>
+        <input type="checkbox" name="sports" value="Gender"> sports
+        <br>
+        <input type="checkbox" name="reading" value="Gender"> reading
+      </fieldset>
+      <br><br>
+      <label> Country:</label>
+      <select name=" select">
+          <option></option>
+        <option>United State</option>
+        <option>Pakistan</option>
+        <option>U.A.E</option>
+        <option>China</option>
+        <option>France</option>
+        <option>London</option>
+        <option>United Kingom</option>
+      </select>
+      <br><br>
+      <label> Preferred Color: </label>
+      <select multiple="">
+        <option>Red</option>
+        <option>Orange</option>
+        <option>Blue</option>
+        <option>Green</option>
+        <option>Black</option>
+        <option>Purple</option>
+        <option>Yellow</option>
+      </select>
+
+      <br><br>
+      <label> Profile Picture:</label>
+      <input type="file" name="file">
+
+      <br><br>
+      <label> Birthday Date:</label>
+      <input type="date" name="date">
+      <br><br>
+      <button type="submit">Submit</button>
+    </form>
+       
+
+    </body>
+</html>
